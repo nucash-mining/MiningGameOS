@@ -1,0 +1,135 @@
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.desktop-icon {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  text-align: center;
+}
+
+.taskbar {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.start-btn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.start-menu {
+  position: absolute;
+  bottom: 50px; /* Make it appear just above the taskbar */
+  left: 10px;
+  width: 200px;
+  background-color: #333;
+  border: 1px solid #555;
+  color: white;
+  padding: 10px;
+}
+
+.start-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.start-menu li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.start-menu li:hover {
+  background-color: #555;
+}
+
+.clock {
+  color: white;
+  padding: 10px;
+}
+.connect-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: #222;
+  border: 1px solid #555;
+  padding: 20px;
+  color: white;
+  z-index: 1000;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.window-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.minimize-btn, .close-btn {
+  background-color: #555;
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.chain-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.chain-option img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.chain-option p {
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+
+.chain-option:hover {
+  background-color: #444;
+}
+
+.wallet-info {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
