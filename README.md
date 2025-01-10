@@ -1,6 +1,26 @@
+# MiningGameOS
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm (comes with Node.js) or Yarn
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running:
+
+1. **Clone the repository**
+   ```bash
+   git clone git@github.com:YourUsername/YourRepositoryName.git
+   cd YourRepositoryName
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App]
 
 ## Available Scripts
 
@@ -17,7 +37,7 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the section about [running tests] for more information.
 
 ### `npm run build`
 
@@ -27,7 +47,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment] for more information.
 
 ### `npm run eject`
 
@@ -41,7 +61,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React App documentation]
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
