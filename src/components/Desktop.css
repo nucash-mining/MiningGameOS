@@ -1,0 +1,16 @@
+.desktop {
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns the taskbar at the bottom */
+    background: url('./assets/MiningGameBackground.png') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .desktop-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* Position the icons wherever you like */
+  }
+  

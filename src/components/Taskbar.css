@@ -1,0 +1,84 @@
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 50px; /* Set taskbar height */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0; /* Remove padding */
+  }
+  
+  .start-btn {
+    width: 50px; /* Width of the Start button */
+    height: 50px; /* Height of the Start button */
+    border-radius: 50%; /* Make the Start button round */
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .start-btn-text {
+    color: #000000; /* Text color */
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    z-index: 2; /* Keep the text above the image */
+  }
+  
+  .window-tabs {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  
+  .window-tab {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .window-tab:hover {
+    background-color: #555;
+  }
+  
+  .connect-icon {
+    width: 20px; /* Set icon size */
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .connect-text {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-right: 2px; /* Add 2 points of padding to the right of the clock */
+  }
+  
+  .time {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  

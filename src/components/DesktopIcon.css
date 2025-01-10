@@ -1,0 +1,17 @@
+.desktop-icon {
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .desktop-icon img {
+    width: 60px; /* Adjust this for size */
+    height: 60px;
+  }
+  
+  .desktop-icon p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+  }
+  

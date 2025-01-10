@@ -1,0 +1,176 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.desktop {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./images/mining_game_background.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Style for a desktop icon */
+.desktop-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.desktop-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.desktop-icon p {
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Context Menu */
+.context-menu {
+  position: absolute;
+  background-color: #222;
+  border: 1px solid #555;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.context-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.context-menu li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.context-menu li:hover {
+  background-color: #666;
+}
+
+/* Taskbar */
+.taskbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid #666;
+}
+
+.taskbar .start-btn {
+  background-color: #555;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.taskbar .start-btn:hover {
+  background-color: #777;
+}
+
+.taskbar .clock {
+  font-size: 14px;
+}
+
+/* Start Menu */
+.start-menu {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  background-color: #333;
+  padding: 10px;
+  width: 250px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.start-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.start-menu li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.start-menu li:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Browser window styling */
+.browser-window {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 800px;
+  height: 600px;
+  background-color: #222;
+  border: 2px solid #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.browser-window.full-screen {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.browser-window .window-frame {
+  background-color: #555;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.browser-window .window-frame button {
+  background-color: #777;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.browser-window .window-frame button:hover {
+  background-color: #999;
+}
