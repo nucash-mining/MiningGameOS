@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MiningGameOS/static/css/main.51492e3a.css",
-    "main.js": "/MiningGameOS/static/js/main.e7bc1d48.js",
+    "main.css": "/MiningGameOS/static/css/main.caebd10a.css",
+    "main.js": "/MiningGameOS/static/js/main.f110b8c0.js",
     "static/js/453.5ae25f37.chunk.js": "/MiningGameOS/static/js/453.5ae25f37.chunk.js",
     "static/media/MiningGameBackground.png": "/MiningGameOS/static/media/MiningGameBackground.9667dcc799919f74a35c.png",
     "static/media/WattLogo.png": "/MiningGameOS/static/media/WattLogo.d2f655b181307a9ec4a0.png",
@@ -10,12 +10,12 @@
     "static/media/browser.png": "/MiningGameOS/static/media/browser.0c6ab68f32b6732cadb7.png",
     "static/media/SwapinLogo.png": "/MiningGameOS/static/media/SwapinLogo.b99a7456a2bd9a809288.png",
     "index.html": "/MiningGameOS/index.html",
-    "main.51492e3a.css.map": "/MiningGameOS/static/css/main.51492e3a.css.map",
-    "main.e7bc1d48.js.map": "/MiningGameOS/static/js/main.e7bc1d48.js.map",
+    "main.caebd10a.css.map": "/MiningGameOS/static/css/main.caebd10a.css.map",
+    "main.f110b8c0.js.map": "/MiningGameOS/static/js/main.f110b8c0.js.map",
     "453.5ae25f37.chunk.js.map": "/MiningGameOS/static/js/453.5ae25f37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51492e3a.css",
-    "static/js/main.e7bc1d48.js"
+    "static/css/main.caebd10a.css",
+    "static/js/main.f110b8c0.js"
   ]
 }
